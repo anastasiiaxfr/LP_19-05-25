@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Minus, Plus } from "lucide-react";
+import { motion } from "framer-motion";
 
 const faq = [
   {
@@ -71,7 +72,19 @@ function SectionFaq() {
 
         <div className="accordion">
           {faq.map((i, ind) => (
-            <div className="accordion_item" key={ind}>
+            <motion.div
+              className="accordion_item"
+              key={ind}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                type: "spring",
+                stiffness: 100,
+                mass: 0.3,
+                delay: ind * 0.1,
+              }}
+              viewport={{ once: false }}
+            >
               <div className="accordion_toggle" onClick={() => toggleItem(ind)}>
                 <h2 className="text-xl my-0">{i.qw}</h2>
                 {openIndex === ind ? <Minus /> : <Plus />}
@@ -86,7 +99,7 @@ function SectionFaq() {
               >
                 {i.answ}
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

@@ -8,10 +8,10 @@ function SectionApps() {
   return (
     <section className="section section_apps">
       <div className="container">
-        <div className="row_1">
+        <div className="row">
           <div>
             <h2>Easy Way to manage your finances</h2>
-            <p className="subtitle">
+            <p className="subtitle mb-10">
               Easy to use mobile app that support on android and ios.
             </p>
             <div className="apps">
