@@ -7,10 +7,10 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { MoveRight } from "lucide-react";
-//import img from "@/app/assets/img/img3.png";
-import i1 from "@/app/assets/img/1.png";
-import i2 from "@/app/assets/img/2.png";
-import i3 from "@/app/assets/img/3.png";
+//import img from "@/app/assets/img/img3.webp";
+import i1 from "@/app/assets/img/1.webp";
+import i2 from "@/app/assets/img/2.webp";
+import i3 from "@/app/assets/img/3.webp";
 
 function Section2() {
   const isDesktop = useIsDesktop();

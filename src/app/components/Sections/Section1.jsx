@@ -7,9 +7,9 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 
-// import img from "@/app/assets/img/img2.png";
-import i1 from "@/app/assets/img/4.png";
-import i2 from "@/app/assets/img/5.png";
+// import img from "@/app/assets/img/img2.webp";
+import i1 from "@/app/assets/img/4.webp";
+import i2 from "@/app/assets/img/5.webp";
 
 function Section1() {
   const isDesktop = useIsDesktop();

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import ava1 from "@/app/assets/img/comments/ava1.png";
-import ava2 from "@/app/assets/img/comments/ava2.png";
-import ava3 from "@/app/assets/img/comments/ava3.png";
+import ava1 from "@/app/assets/img/comments/ava1.webp";
+import ava2 from "@/app/assets/img/comments/ava2.webp";
+import ava3 from "@/app/assets/img/comments/ava3.webp";
 import quote from "@/app/assets/img/icons/quote.svg";
 
 const comments = [

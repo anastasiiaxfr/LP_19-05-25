@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import img from "@/app/assets/img/img1.png";
+import img from "@/app/assets/img/img1.webp";
 import app1 from "@/app/assets/img/app1.svg";
 import app2 from "@/app/assets/img/app2.svg";
 
