@@ -32,6 +32,8 @@
 
   .container {
     @apply mx-auto px-8;
+    max-width: 1200px !important;
+
   }
 
   h1 {
